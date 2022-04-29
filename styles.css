@@ -1,0 +1,55 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+header
+{
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-section
+{
+    width: 80%;
+    border: red solid 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-one
+{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+ul
+{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.header-two
+{
+    display: flex;
+}
+
+.img-box
+{
+    background-color: grey;
+    width: 300px;
+}
