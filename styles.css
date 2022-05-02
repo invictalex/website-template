@@ -98,3 +98,25 @@ button
     margin-top: 10px;
     border-radius: 5px;
 }
+
+.content-one-section
+{
+    min-width: 870px;
+    width: 70%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;    
+}
+
+.content-one-bottom
+{
+    display: flex;
+}
+
+.card
+{
+    max-width: 100px;
+    max-height: auto;
+}
