@@ -7,7 +7,7 @@
 
 div
 {
-    border: 1px solid rgb(217, 153, 153);
+    
 }
 
 body
@@ -206,7 +206,46 @@ button
 
 /*------------------- CONTENT 3 -------------------- */
 
+.content3
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
 
+.content3-container
+{
+    min-width: 870px;
+    width: 70%;    
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px 60px 0px;
+    margin: 100px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+}
+
+h4
+{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.cta-button
+{
+    border: 2px solid white;
+}
 
 
 /*------------------- FOOTER -------------------- */
+
+.footer
+{
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
